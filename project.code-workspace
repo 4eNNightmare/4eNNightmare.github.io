@@ -1,0 +1,47 @@
+{
+    "folders": [
+      {
+        "path": "."
+      }
+    ],
+    "settings": {
+      "files.eol": "\n",
+      "editor.tabSize": 2,
+      "files.autoSave": "onFocusChange",
+      "editor.formatOnType": true,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "colorize.languages": [
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg",
+        "javascript"
+      ],
+      "colorize.colorized_colors": [
+        "ARGB",
+        "BROWSERS_COLORS",
+        "HEXA",
+        "HSL",
+        "RGB"
+      ],
+      "colorize.colorized_variables": ["SASS", "LESS", "CSS", "STYLUS"]
+    },
+    "extensions": {
+      "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "kamikillerto.vscode-colorize",
+        "editorconfig.editorconfig",
+        "coenraads.bracket-pair-colorizer-2"
+      ]
+    }
+  }
+  

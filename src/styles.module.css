@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px;
+  gap: 8px 8px;
+  grid-template-areas:
+    '. . .'
+    '. . .'
+    '. . .';
+}

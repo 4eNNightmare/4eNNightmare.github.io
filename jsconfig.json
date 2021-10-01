@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@components": ["src/components/*/index.js"],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["assets/*"],
+      "@helpers/*": ["src/helpers/*"]
+    }
+  },
+  "exclude": ["node_modules", "assets", "public", "dist"]
+}

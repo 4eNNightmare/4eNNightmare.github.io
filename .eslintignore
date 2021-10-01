@@ -1,0 +1,7 @@
+public/*
+dist/*
+assets/*
+node_modules/*
+
+*.css
+*.json
