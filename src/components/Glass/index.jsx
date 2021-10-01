@@ -116,7 +116,7 @@ export default function Glass({ children, width = '64px', height = '64px', maxRo
   })
 
   return (
-    <button
+    <div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={styles['glass-button']}
@@ -130,6 +130,6 @@ export default function Glass({ children, width = '64px', height = '64px', maxRo
         <div ref={glassBordersRef} className={styles['glass-borders']} />
         {children}
       </div>
-    </button>
+    </div>
   )
 }
